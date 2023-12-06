@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.QuizApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/app_icon_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/pencil_thinking</item>
+        <item name="postSplashScreenTheme">@style/Theme.QuizApp</item>
+
+    </style>
+</resources>
